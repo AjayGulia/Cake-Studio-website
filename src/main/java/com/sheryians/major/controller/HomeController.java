@@ -16,6 +16,8 @@ public class HomeController {
 	  @Autowired 
 	  ProductService productService;
 	  
+      
+	  
 	  @GetMapping({"/","/home"})
 	  public String home(Model model) {
 		  return "index";
